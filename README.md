@@ -1,3 +1,3 @@
 # projects
-my projects using html css js
+my projects using HTML,CSS,JS.
 Author - Dhruv Patel
