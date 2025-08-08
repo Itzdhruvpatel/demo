@@ -1,0 +1,5 @@
+the process after installing git are:
+1. first we have to configure the file on git with our name and email
+2. then we have to import the repo to the code editor byb git clone and check its status 
+3. status are of four types : untracted (new file added), modified(some thing is modified) , staged(the file is added but not commited) , unmodified(means the changes are commited or no changes are made)
+4. in order to add we use git add <filename> to commit we use git commit - m (some message)
