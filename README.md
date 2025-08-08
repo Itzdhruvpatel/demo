@@ -1,4 +1,3 @@
-# projects
-my projects using HTML,CSS,JS.
+# DEMO
 <br>
 Author - Dhruv Patel
