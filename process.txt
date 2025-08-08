@@ -8,10 +8,10 @@ the process after installing git are:
   
  to get to the prev directory we use : cd .. 
  to make a new directory we use command : mkdir 'name'
-to initialise a empty repo we use : git init 
+ to initialise a empty repo we use : git init 
  the new file created new to be pushed on the git so we make a new repo and do the foll steps:
  1. git remote add origin <link>
  2. to verify the remote use: git remote -v
  3. to check branch use : git branch the default branch is called main 
  4. to rename the branch name to 'main' in which the folder is stored use : git branch -M main
- now push using :git push origin main
+ now push using :git push -u origin main  -u means that in future we do not have to write origin main we just have to write git push
