@@ -12,6 +12,25 @@ the process after installing git are:
  the new file created new to be pushed on the git so we make a new repo and do the foll steps:
  1. make the same repo on the github then do : git remote add origin <link>
  2. to verify the remote use: git remote -v
- 3. to check branch use : git branch the default branch is called main 
+ 3. to check branch use : git branch and the default branch is called main 
  4. to rename the branch name to 'main' in which the folder is stored use : git branch -M main
  now push using :git push -u origin main  -u means that in future we do not have to write origin main we just have to write git push
+
+- to check all the branches use git branch
+- to make a new branch use : git checkout -b branchname
+- to navigate or to go to a perticular branch use : git checkout branchname
+- to delete a branch use :git branch -d branchname and note we cannot delete the branch we are on
+- when we are on a preticular branch and modify the files and add and commit that changes will not be seen on the main file and will only be accessed on that branch
+- to push the changes on the github we need to git push origin <that branch name>
+
+To merge two branches 
+way 1
+use: git diff <branch name>
+use: git merge <branch name>
+
+way 2 
+using PR - pull request - it means to let you tell others about changes you have pushed to a branch in a repo on github
+now to see the changes made on the main branch on the github we use pull command :
+git pull origin main - it is used to fetch and download content form a remote repo and immediately update the local repo to match that content
+
+resolving merge conflicts - an event that takes place when git is unable to automatically resolve differences in the code between two commits
