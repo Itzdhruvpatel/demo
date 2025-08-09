@@ -4,7 +4,7 @@ the process after installing git are:
 3. then we have to import the repo to the code editor by git clone "link" and check its status ; git status
 4. status are of four types : untracted (new file added), modified(some thing is modified) , staged(the file is added but not commited) , unmodified(means the changes are commited or no changes are made)
 5. in order to add we use git add <filename> to commit we use git commit - m (some message) to add every thing at once use git add . then git commit -m "msg"
-6. now we have to push to our github (remote) or to upload local repo content to remote repo ; git push origin main
+6. now we have to push to our github (remote) or to upload local repo content to remote repo : git push origin main
   
  to get to the prev directory we use : cd .. 
  to make a new directory we use command : mkdir 'name'
@@ -34,3 +34,16 @@ now to see the changes made on the main branch on the github we use pull command
 git pull origin main - it is used to fetch and download content form a remote repo and immediately update the local repo to match that content
 
 resolving merge conflicts - an event that takes place when git is unable to automatically resolve differences in the code between two commits
+to resolve merge conflicts use way 1
+
+now to undo changes :
+case 1: staged changes 
+    git reset <file name>
+    git reset
+
+case 2: commited changes (for one commit)
+    git reset HEAD-1
+
+case 3: commited changes (for many commits)
+    git reset <commit hash>
+    git reset --hard <commit hash>
